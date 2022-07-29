@@ -21,7 +21,7 @@ Unlabelled = [0,0,0]
 
 COLOR_DICT = np.array([Sky, Building, Pole, Road, Pavement,
                           Tree, SignSymbol, Fence, Car, Pedestrian, Bicyclist, Unlabelled])
-
+# apple
 
 def adjustData(img,mask,flag_multi_class,num_class):
     if(flag_multi_class):
